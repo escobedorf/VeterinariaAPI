@@ -1,4 +1,4 @@
-const HistorialesMedicos = require('../models/historialMedico.model');
+const HistorialesMedicos = require('../models/historialmedico.model');
 
 exports.getAllHistorialesMedicos = async (req, res) => {
     try {
