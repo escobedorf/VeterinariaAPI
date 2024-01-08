@@ -1,6 +1,3 @@
-//const { DataTypes } = require('sequelize');
-//const mongoose = require('mongoose');
-//const sequelize = require('../config/db');
 const mongoose = require('../config/db');
 const { Schema } = mongoose
 
