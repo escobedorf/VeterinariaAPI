@@ -11,7 +11,7 @@ const citaSchema = new Schema({
         unique: true
     }, */
     ID_Paciente: {
-        type: Number,
+        type: String,
         //required: true
     },
     Fecha_Hora: {

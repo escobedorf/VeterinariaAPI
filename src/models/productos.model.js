@@ -11,7 +11,7 @@ const productoSchema = new Schema({
         unique: true
     }, */
     ID_Item: {
-        type: Number,
+        type: String
         //required: true
     },
     Cantidad: {

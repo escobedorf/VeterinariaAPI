@@ -8,7 +8,7 @@ const historialMedicoSchema = new Schema({
         unique: true
     },
     ID_Paciente: {
-        type: Number,  // Adjust the type as needed for your use case
+        type: String  // Adjust the type as needed for your use case
         //required: true,
     },
     Vacunas: {

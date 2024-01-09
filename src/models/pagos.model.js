@@ -11,7 +11,7 @@ const pagoSchema = new Schema({
         unique: true
     }, */
     ID_Factura: {
-        type: Number,
+        type: String
         //required: true
     },
     Fecha_Pago: {

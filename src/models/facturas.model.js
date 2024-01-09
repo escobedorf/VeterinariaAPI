@@ -11,11 +11,11 @@ const facturaSchema = new Schema({
         unique: true
     },
     ID_Cita: {
-        type: Number,
+        type: String
         //required: true
     },
     ID_Servicio: {
-        type: Number,
+        type: String
         //required: true
     },
     Monto_Total: {
