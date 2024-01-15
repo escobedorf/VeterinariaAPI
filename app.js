@@ -14,8 +14,10 @@ const routsInformesEstadisticos = require('./src/routes/informeEstadistico.route
 const app = express()
 const port = process.env.PORT || 3000;
 
+const whiteList = ['http://localhost:4200']
+
 // Middleware CORS para permitir solicitudes desde cualquier origen
-app.use(cors());
+app.use(cors({origin: whiteList}));
 
 app.use(express.json());
 
